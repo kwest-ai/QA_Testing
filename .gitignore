@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+scengen-logs/
+ui_snapshots/
+qa/test_results.xlsx
+memory/history.json
+bugs/bugs.json
+bugs/
+*.sqlite3
+*.db
+
+# Playwright videos
+scengen-logs/videos_*/
+
+# Environment and secrets
+.env
+*.env
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE
+.vscode/
+.idea/ 
