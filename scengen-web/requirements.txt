@@ -1,0 +1,8 @@
+groq
+stagehand-sdk
+python-dotenv
+Pillow
+openai 
+playwright
+transformers
+torch

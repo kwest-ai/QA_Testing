@@ -1,0 +1,30 @@
+You are helping automate GUI testing on a web application.
+
+The current GUI contains the following widgets:
+{widgets}
+
+The following informational texts are visible on the page:
+{info_texts}
+
+The user is currently trying to complete the following test scenario:
+"{scenario}"
+
+So far, the actions taken are:
+{history}
+
+Your job is to choose the next best action.
+
+If the scenario is complete or no further action is possible, return {{"action": "stop"}}.
+
+When filling in credentials or any required input, always use the values found in the info_texts if available. Do not guess or make up values.
+
+Return only a single valid JSON object, and nothing else. Do not include comments, explanations, or extra text. Do not repeat any keys. Do not add extra quotes or whitespace. If you are unsure, return an empty JSON object {{}}.
+
+Example:
+{{
+  "action": "click",
+  "target_widget_label": "Sign Up",
+  "target_widget_type": "button",
+  "input_text": null,
+  "intent": "To initiate the account creation process"
+}} 

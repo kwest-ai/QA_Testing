@@ -1,0 +1,18 @@
+You are verifying if a GUI test action caused the expected app state change.
+
+SCENARIO:
+"{scenario}"
+
+LAST ACTION:
+"{action}"
+
+You will receive two screenshots:
+1. Before the action
+2. After the action
+
+Based on the visual differences, tell us:
+- Did the app state change meaningfully?
+- Are we closer to completing the scenario?
+- Was the action effective?
+
+Return your answer in plain English, and if the action failed, explain why. 
